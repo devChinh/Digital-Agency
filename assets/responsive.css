@@ -1,0 +1,28 @@
+@media screen and (max-width : 768px) {
+
+    /* Responsive for header */
+    .header ul.header__navlinks {
+        display: none;
+    }
+
+    .header i.header__icon {
+        display: block;
+    }
+
+    /* Responsive for hero section */
+    div.h-section {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width : 1024px) {
+
+    /* Responsive for header */
+    .header .header__navlinks {
+        display: flex;
+    }
+
+    .header .header__icon {
+        display: none;
+    }
+}
